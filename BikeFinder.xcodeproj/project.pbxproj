@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D83DA321F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
+		0D83DA331F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
+		0D83DA341F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
+		0D83DA3E1F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
+		0D83DA3F1F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
+		0D83DA401F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
 		0DE058671F363D7100390D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058661F363D7100390D10 /* AppDelegate.swift */; };
 		0DE058691F363D7100390D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058681F363D7100390D10 /* ViewController.swift */; };
 		0DE0586C1F363D7100390D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586A1F363D7100390D10 /* Main.storyboard */; };
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D83DA311F364B8700D68266 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		0D83DA3D1F3674E400D68266 /* BikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
 		0DE058631F363D7100390D10 /* BikeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE058661F363D7100390D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE058681F363D7100390D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +122,8 @@
 		0DE058651F363D7100390D10 /* BikeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				0D83DA311F364B8700D68266 /* NetworkingManager.swift */,
+				0D83DA3D1F3674E400D68266 /* BikeStation.swift */,
 				0DE058661F363D7100390D10 /* AppDelegate.swift */,
 				0DE058681F363D7100390D10 /* ViewController.swift */,
 				0DE0586A1F363D7100390D10 /* Main.storyboard */,
@@ -463,6 +473,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D83DA321F364B8700D68266 /* NetworkingManager.swift in Sources */,
+				0D83DA3E1F3674E400D68266 /* BikeStation.swift in Sources */,
 				0DE058691F363D7100390D10 /* ViewController.swift in Sources */,
 				0DE058671F363D7100390D10 /* AppDelegate.swift in Sources */,
 			);
@@ -473,6 +485,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE0587C1F363D7200390D10 /* BikeFinderTests.swift in Sources */,
+				0D83DA3F1F3674E400D68266 /* BikeStation.swift in Sources */,
+				0D83DA331F364B8700D68266 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE058871F363D7200390D10 /* BikeFinderUITests.swift in Sources */,
+				0D83DA401F3674E400D68266 /* BikeStation.swift in Sources */,
+				0D83DA341F364B8700D68266 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
