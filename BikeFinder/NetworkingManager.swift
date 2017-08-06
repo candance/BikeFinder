@@ -157,11 +157,38 @@ class NetworkingManager: NSObject {
             }
             bikeStations = realm.objects(BikeStation.self)
         } catch let error {
-            print("Realm Write Error: " + error.localizedDescription)
+            print("Bike Station Create Error: " + error.localizedDescription)
         }
     }
     
     private func updateBikeStations(_ stations: [[String: AnyObject]]) {
-
+        do {
+            guard let realm = realm else { return }
+            try realm.write {
+                for station in stations {
+                    guard let stationID = station["station_id"] as? String, let name = station["name"] as? String, let lat = station["lat"] as? Double, let lon = station["lon"] as? Double, let capacity = station["capacity"] as? Int else {
+                        continue
+                    }
+                    
+                    if let existingBikeStation = realm.object(ofType: BikeStation.self, forPrimaryKey: stationID) {
+                        existingBikeStation.name = name
+                        existingBikeStation.lat = lat
+                        existingBikeStation.lon = lon
+                        existingBikeStation.capacity = capacity
+                    } else {
+                        let newBikeStation = BikeStation()
+                        newBikeStation.stationID = stationID
+                        newBikeStation.name = name
+                        newBikeStation.lat = lat
+                        newBikeStation.lon = lon
+                        newBikeStation.capacity = capacity
+                        realm.add(newBikeStation)
+                    }
+                }
+            }
+            bikeStations = realm.objects(BikeStation.self)
+        } catch let error {
+            print("Bike Station Update Error: " + error.localizedDescription)
+        }
     }
 }
