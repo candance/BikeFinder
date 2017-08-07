@@ -9,9 +9,15 @@
 import UIKit
 import RealmSwift
 
+protocol NetworkingManagerDelegate {
+    func updateBikeStationStatuses()
+}
+
 class NetworkingManager: NSObject {
     
     // MARK: - Variables
+    
+    var networkingManagerDelegate: NetworkingManagerDelegate?
     
     typealias BikeStationResult = ([String: AnyObject]) -> ()
     
@@ -73,7 +79,13 @@ class NetworkingManager: NSObject {
         getFeedJSON(stationInformationFeedURL) { [weak self] (result) in
             self?.createOrUpdateBikeStations(result)
             
-            self?.getStationStatusFeed()
+            self?.getStationStatusFeed { [weak self] (done) in
+                if done {
+                    DispatchQueue.main.async {
+                        self?.networkingManagerDelegate?.updateBikeStationStatuses()
+                    }
+                }
+            }
         }
     }
     
@@ -149,9 +161,10 @@ class NetworkingManager: NSObject {
     
     // MARK: - Updating bike station status from Station Status feed
     
-    private func getStationStatusFeed() {
+    func getStationStatusFeed(completion: @escaping (_ success: Bool) -> Void) {
         getFeedJSON(stationStatusFeedURL) { [weak self] (result) in
             self?.updateBikeStationStatus(result)
+            completion(true)
         }
     }
     

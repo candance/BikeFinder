@@ -10,7 +10,7 @@ import UIKit
 import Mapbox
 import RealmSwift
 
-class MapViewController: UIViewController, MGLMapViewDelegate {
+class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManagerDelegate {
 
     // MARK: - Outlets and Variables
     
@@ -24,6 +24,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NetworkingManager.shared.networkingManagerDelegate = self
         mapView.delegate = self
         
         mapView.userTrackingMode = .follow
@@ -99,6 +100,27 @@ class MapViewController: UIViewController, MGLMapViewDelegate {
     
     func mapView(_ mapView: MGLMapView, didSelect annotation: MGLAnnotation) {
         mapView.setCenter(annotation.coordinate, animated: true)
+    }
+    
+    
+    // MARK: - Refresh Bike Station Status
+    
+    @IBAction func refreshButtonTouched(_ sender: Any) {
+        NetworkingManager.shared.getStationStatusFeed { [weak self] (done) in
+            if done {
+                DispatchQueue.main.async {
+                    self?.updateBikeStationStatuses()
+                }
+            }
+        }
+    }
+    
+    // Used in <NetworkingManagerDelegate> as well
+    func updateBikeStationStatuses() {
+        fetchBikeStations()
+        mapView.removeAnnotations(pointAnnotations)
+        pointAnnotations = annotateBikeStationsOnMap()
+        mapView.addAnnotations(pointAnnotations)
     }
 }
 

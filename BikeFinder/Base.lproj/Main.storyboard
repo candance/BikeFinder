@@ -61,7 +61,18 @@
                             <constraint firstItem="kSD-fa-DVj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="l7M-PN-t1V"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Bike Finder" id="dAo-yN-8N8"/>
+                    <navigationItem key="navigationItem" title="Bike Finder" id="dAo-yN-8N8">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Tjo-ot-GzL">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rNz-lZ-UQp">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="refreshButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gl7-yJ-sP9"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="kSD-fa-DVj" id="MMj-HT-u1a"/>
                     </connections>
