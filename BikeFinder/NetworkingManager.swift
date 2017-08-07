@@ -23,8 +23,6 @@ class NetworkingManager: NSObject {
         }
     }()
     
-    private var bikeStations: Results<BikeStation>?
-
     // Singleton for NetworkingManager
     static let shared = NetworkingManager()
     
@@ -47,32 +45,9 @@ class NetworkingManager: NSObject {
     // MARK: - Saving specific feeds from main URL
     
     func getBikeshareFeeds() {
-        
-        // Cancel existing dataTask if there is one already
-        dataTask?.cancel()
-        
-        guard let url = URL(string: kBikeshareFeedURL) else { return }
-        
-        // Creating Data Task with already existing URLSession
-        dataTask = defaultSession.dataTask(with: url) { [weak self] (data, response, error) in
-            
-            if let error = error {
-                print("Data Task Error: " + error.localizedDescription)
-            }
-            guard let data = data else { return }
-            do {
-                if let json = try JSONSerialization.jsonObject(with: data, options: [.mutableContainers]) as? [String: AnyObject] {
-                    self?.saveFeedURLs(json)
-                }
-            } catch let error {
-                print("JSONSerialization Error: " + error.localizedDescription)
-            }
-            
-            self?.dataTask = nil
+        getFeedJSON(kBikeshareFeedURL) { [weak self] (result) in
+            self?.saveFeedURLs(result)
         }
-        
-        // Start the dataTask
-        dataTask?.resume()
     }
     
     private func saveFeedURLs(_ jsonObject: [String: AnyObject]) {
@@ -86,42 +61,24 @@ class NetworkingManager: NSObject {
             if feedName == kStationInformationFeed {
                 stationInformationFeedURL = url
                 
-                getStationInformationFeed(url)
             } else if feedName == kStationStatusFeed {
                 stationStatusFeedURL = url
-                // TODO
+                
             }
+        }
+        getStationFeeds()
+    }
+    
+    private func getStationFeeds() {
+        getFeedJSON(stationInformationFeedURL) { [weak self] (result) in
+            self?.createOrUpdateBikeStations(result)
+            
+            self?.getStationStatusFeed()
         }
     }
     
     
-    // MARK: - Creating or updating bike stations from feeds
-    
-    private func getStationInformationFeed(_ url: String) {
-        dataTask?.cancel()
-        
-        guard let url = URL(string: url) else { return }
-        
-        dataTask = defaultSession.dataTask(with: url) { [weak self] (data, response, error) in
-            
-            if let error = error {
-                print("Data Task Error: " + error.localizedDescription)
-            }
-            guard let data = data else { return }
-            do {
-                if let json = try JSONSerialization.jsonObject(with: data, options: [.mutableContainers]) as? [String: AnyObject]{
-                    self?.createOrUpdateBikeStations(json)
-                }
-            } catch let error {
-                print("JSONSerialization Error: " + error.localizedDescription)
-            }
-            
-            self?.dataTask = nil
-        }
-        
-        // Start the dataTask
-        dataTask?.resume()
-    }
+    // MARK: - Creating or updating bike stations from Station Information feed
     
     private func createOrUpdateBikeStations(_ jsonObject: [String: AnyObject]) {
         guard let data = jsonObject["data"] as? [String: AnyObject], let stations = data["stations"] as? [[String: AnyObject]] else {
@@ -129,9 +86,9 @@ class NetworkingManager: NSObject {
         }
         
         guard let realm = realm else { return }
-        bikeStations = realm.objects(BikeStation.self)
+        let bikeStations = realm.objects(BikeStation.self)
         
-        if bikeStations?.count == 0 {
+        if bikeStations.count == 0 {
             createBikeStations(stations)
         } else {
             updateBikeStations(stations)
@@ -155,7 +112,6 @@ class NetworkingManager: NSObject {
                     realm.add(newBikeStation)
                 }
             }
-            bikeStations = realm.objects(BikeStation.self)
         } catch let error {
             print("Bike Station Create Error: " + error.localizedDescription)
         }
@@ -186,9 +142,75 @@ class NetworkingManager: NSObject {
                     }
                 }
             }
-            bikeStations = realm.objects(BikeStation.self)
         } catch let error {
             print("Bike Station Update Error: " + error.localizedDescription)
         }
+    }
+    
+    // MARK: - Updating bike station status from Station Status feed
+    
+    private func getStationStatusFeed() {
+        getFeedJSON(stationStatusFeedURL) { [weak self] (result) in
+            self?.updateBikeStationStatus(result)
+        }
+    }
+    
+    private func updateBikeStationStatus(_ jsonObject: [String: AnyObject]) {
+        guard let data = jsonObject["data"] as? [String: AnyObject], let stations = data["stations"] as? [[String: AnyObject]] else {
+            return
+        }
+        
+        do {
+            let realm = try Realm()
+
+            for station in stations {
+                guard let stationID = station["station_id"] as? String, let availableBikes = station["num_bikes_available"] as? Int, let availableDocks = station["num_docks_available"] as? Int, let isInstalled = station["is_installed"] as? Bool, let isRenting = station["is_renting"] as? Bool, let isReturning = station["is_returning"] as? Bool else {
+                    continue
+                }
+
+                try realm.write {
+                    if let existingBikeStation = realm.object(ofType: BikeStation.self, forPrimaryKey: stationID) {
+                        existingBikeStation.availableBikes = availableBikes
+                        existingBikeStation.availableDocks = availableDocks
+                        existingBikeStation.isInstalled = isInstalled
+                        existingBikeStation.isRenting = isRenting
+                        existingBikeStation.isReturning = isReturning
+                    }
+                }
+            }
+        } catch let error {
+            print("Bike Station Status Update Error: " + error.localizedDescription)
+        }
+    }
+
+    
+    // MARK: - Helper: Get JSON from feed
+    
+    private func getFeedJSON(_ urlString: String?, completion: @escaping BikeStationResult) {
+        // Cancel existing dataTask if there is one already
+        dataTask?.cancel()
+        
+        guard let urlString = urlString else { return }
+        guard let url = URL(string: urlString) else { return }
+        
+        // Creating Data Task with already existing URLSession
+        dataTask = defaultSession.dataTask(with: url) { [weak self] (data, response, error) in
+            
+            if let error = error {
+                print("Data Task Error: " + error.localizedDescription)
+            }
+            guard let data = data else { return }
+            do {
+                if let json = try JSONSerialization.jsonObject(with: data, options: [.mutableContainers]) as? [String: AnyObject] {
+                    completion(json)
+                }
+            } catch let error {
+                print("JSONSerialization Error: " + error.localizedDescription)
+            }
+            // Set dataTask to nil at the end
+            self?.dataTask = nil
+        }
+        // Start the dataTask
+        dataTask?.resume()
     }
 }
