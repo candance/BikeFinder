@@ -25,6 +25,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate {
         super.viewDidLoad()
         
         mapView.delegate = self
+        
         mapView.userTrackingMode = .follow
         
         fetchBikeStations()
@@ -41,39 +42,55 @@ class MapViewController: UIViewController, MGLMapViewDelegate {
         }
     }
     
-    private func annotateBikeStationsOnMap() -> [MGLPointAnnotation] {
-        var pointAnnotations = [MGLPointAnnotation]()
+    private func annotateBikeStationsOnMap() -> [CustomPointAnnotation] {
+        var pointAnnotations = [CustomPointAnnotation]()
         if let bikeStations = bikeStations {
             for bikeStation in bikeStations {
-                let point = MGLPointAnnotation()
+                let point = CustomPointAnnotation()
                 point.coordinate = CLLocationCoordinate2DMake(bikeStation.lat, bikeStation.lon)
                 point.title = bikeStation.name
+                point.subtitle = "Bikes: " + String(bikeStation.availableBikes) + ", Docks: " + String(bikeStation.availableDocks)
+                point.color = bikeStationStatusAnnotationColor(bikeStation)
                 pointAnnotations.append(point)
             }
         }
         return pointAnnotations
     }
+    
+    private func bikeStationStatusAnnotationColor(_ bikeStation: BikeStation) -> UIColor {
+        if bikeStation.isInstalled == true, bikeStation.isReturning == true, bikeStation.isRenting == true {
+            if bikeStation.availableBikes > 3, bikeStation.availableDocks > 3 {
+                return UIColor.green
+            } else if bikeStation.availableBikes == 0 || bikeStation.availableDocks == 0 {
+                return UIColor.red
+            } else {
+                return UIColor.orange
+            }
+        }
+        return UIColor.gray
+    }
 
     // MARK: - MGLMapViewDelegate
     
     func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
-        guard annotation is MGLPointAnnotation else {
-            return nil
-        }
         
-        // Reuse existing annotations to improve performance
-        let reuseIdentifier = "\(annotation.coordinate.longitude)"
-        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier)
-        
-        // Initialize a new annotation view if none available
-        if annotationView == nil {
-            annotationView = CustomAnnotationView(reuseIdentifier: reuseIdentifier)
-            annotationView!.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+        if let annotation = annotation as? CustomPointAnnotation, let color = annotation.color {
             
-            // TODO: Annotation view color matches bike station operating status
-            annotationView!.backgroundColor = UIColor.red
+            // Reuse existing annotations to improve performance
+            let reuseIdentifier = "\(annotation.coordinate.longitude)"
+            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier)
+            
+            // Initialize a new annotation view if none available
+            if annotationView == nil {
+                annotationView = CustomAnnotationView(reuseIdentifier: reuseIdentifier)
+                annotationView!.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+                
+                // Annotation view color matches bike station operating status
+                annotationView!.backgroundColor = color
+            }
+            return annotationView
         }
-        return annotationView
+        return nil
     }
     
     func mapView(_ mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
@@ -83,6 +100,11 @@ class MapViewController: UIViewController, MGLMapViewDelegate {
     func mapView(_ mapView: MGLMapView, didSelect annotation: MGLAnnotation) {
         mapView.setCenter(annotation.coordinate, animated: true)
     }
+}
+
+// MARK: - MGLAnnotationView subclass
+class CustomPointAnnotation: MGLPointAnnotation {
+    var color: UIColor?
 }
 
 // MARK: - MGLAnnotationView subclass
