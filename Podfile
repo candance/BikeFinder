@@ -4,6 +4,7 @@ target 'BikeFinder' do
   use_frameworks!
   
   pod 'RealmSwift'
+  pod 'Mapbox-iOS-SDK'
 
   target 'BikeFinderTests' do
     inherit! :search_paths
