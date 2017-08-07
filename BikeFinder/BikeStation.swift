@@ -15,6 +15,11 @@ class BikeStation: Object {
     dynamic var lat = 0.0
     dynamic var lon = 0.0
     dynamic var capacity = 0
+    dynamic var availableBikes = 0
+    dynamic var availableDocks = 0
+    dynamic var isInstalled = false
+    dynamic var isRenting = false
+    dynamic var isReturning = false
     
     override static func primaryKey() -> String? {
         return "stationID"
