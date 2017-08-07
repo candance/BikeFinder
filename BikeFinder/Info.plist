@@ -36,5 +36,7 @@
 	</array>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1IjoiY2FyZGFueSIsImEiOiJjajYxZjgzM2QwdzQ5MzRucjNtd3dmc2N5In0.2sCNYs6DflI-HBRiq5_KhQ</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is used to list closest bike docks.</string>
 </dict>
 </plist>

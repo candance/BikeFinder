@@ -14,7 +14,7 @@
 		0D83DA3F1F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
 		0D83DA401F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
 		0DE058671F363D7100390D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058661F363D7100390D10 /* AppDelegate.swift */; };
-		0DE058691F363D7100390D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058681F363D7100390D10 /* ViewController.swift */; };
+		0DE058691F363D7100390D10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058681F363D7100390D10 /* MapViewController.swift */; };
 		0DE0586C1F363D7100390D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586A1F363D7100390D10 /* Main.storyboard */; };
 		0DE0586E1F363D7100390D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586D1F363D7100390D10 /* Assets.xcassets */; };
 		0DE058711F363D7100390D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586F1F363D7100390D10 /* LaunchScreen.storyboard */; };
@@ -47,7 +47,7 @@
 		0D83DA3D1F3674E400D68266 /* BikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
 		0DE058631F363D7100390D10 /* BikeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE058661F363D7100390D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DE058681F363D7100390D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DE058681F363D7100390D10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0DE0586B1F363D7100390D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE0586D1F363D7100390D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE058701F363D7100390D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 				0D83DA411F3696B200D68266 /* Models */,
 				0D83DA311F364B8700D68266 /* NetworkingManager.swift */,
 				0DE058661F363D7100390D10 /* AppDelegate.swift */,
-				0DE058681F363D7100390D10 /* ViewController.swift */,
+				0DE058681F363D7100390D10 /* MapViewController.swift */,
 				0DE0586A1F363D7100390D10 /* Main.storyboard */,
 				0DE0586D1F363D7100390D10 /* Assets.xcassets */,
 				0DE0586F1F363D7100390D10 /* LaunchScreen.storyboard */,
@@ -487,7 +487,7 @@
 			files = (
 				0D83DA321F364B8700D68266 /* NetworkingManager.swift in Sources */,
 				0D83DA3E1F3674E400D68266 /* BikeStation.swift in Sources */,
-				0DE058691F363D7100390D10 /* ViewController.swift in Sources */,
+				0DE058691F363D7100390D10 /* MapViewController.swift in Sources */,
 				0DE058671F363D7100390D10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
