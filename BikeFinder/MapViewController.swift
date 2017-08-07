@@ -28,7 +28,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
         mapView.delegate = self
         
         mapView.userTrackingMode = .follow
-        
+                
         fetchBikeStations()
         pointAnnotations = annotateBikeStationsOnMap()
         mapView.addAnnotations(pointAnnotations)
@@ -61,14 +61,14 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
     private func bikeStationStatusAnnotationColor(_ bikeStation: BikeStation) -> UIColor {
         if bikeStation.isInstalled == true, bikeStation.isReturning == true, bikeStation.isRenting == true {
             if bikeStation.availableBikes > 3, bikeStation.availableDocks > 3 {
-                return UIColor.green
+                return .green
             } else if bikeStation.availableBikes == 0 || bikeStation.availableDocks == 0 {
-                return UIColor.red
+                return .red
             } else {
-                return UIColor.orange
+                return .orange
             }
         }
-        return UIColor.gray
+        return .gray
     }
 
     // MARK: - MGLMapViewDelegate
