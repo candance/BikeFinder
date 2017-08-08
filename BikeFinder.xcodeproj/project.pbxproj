@@ -97,14 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D83DA411F3696B200D68266 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				0D83DA3D1F3674E400D68266 /* BikeStation.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
 		0DE0585A1F363D7100390D10 = {
 			isa = PBXGroup;
 			children = (
@@ -130,10 +122,10 @@
 		0DE058651F363D7100390D10 /* BikeFinder */ = {
 			isa = PBXGroup;
 			children = (
-				0D83DA411F3696B200D68266 /* Models */,
+				0D83DA3D1F3674E400D68266 /* BikeStation.swift */,
 				0D83DA311F364B8700D68266 /* NetworkingManager.swift */,
-				0DE058661F363D7100390D10 /* AppDelegate.swift */,
 				0DE058681F363D7100390D10 /* MapViewController.swift */,
+				0DE058661F363D7100390D10 /* AppDelegate.swift */,
 				0DE0586A1F363D7100390D10 /* Main.storyboard */,
 				0DE0586D1F363D7100390D10 /* Assets.xcassets */,
 				0DE0586F1F363D7100390D10 /* LaunchScreen.storyboard */,

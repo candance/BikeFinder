@@ -51,8 +51,10 @@ class NetworkingManager: NSObject {
     // MARK: - Saving specific feeds from main URL
     
     func getBikeshareFeeds() {
-        getFeedJSON(kBikeshareFeedURL) { [weak self] (result) in
-            self?.saveFeedURLs(result)
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.getFeedJSON(self.kBikeshareFeedURL) { [weak self] (result) in
+                self?.saveFeedURLs(result)
+            }
         }
     }
     
@@ -162,9 +164,11 @@ class NetworkingManager: NSObject {
     // MARK: - Updating bike station status from Station Status feed
     
     func getStationStatusFeed(completion: @escaping (_ success: Bool) -> Void) {
-        getFeedJSON(stationStatusFeedURL) { [weak self] (result) in
-            self?.updateBikeStationStatus(result)
-            completion(true)
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.getFeedJSON(self.stationStatusFeedURL) { [weak self] (result) in
+                self?.updateBikeStationStatus(result)
+                completion(true)
+            }
         }
     }
     
