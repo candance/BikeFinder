@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-766" y="21"/>
         </scene>
-        <!--Bike Finder-->
+        <!--FIND-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="BikeFinder" customModuleProvider="target" sceneMemberID="viewController">
@@ -61,20 +61,29 @@
                             <constraint firstItem="kSD-fa-DVj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="l7M-PN-t1V"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Bike Finder" id="dAo-yN-8N8">
-                        <barButtonItem key="rightBarButtonItem" style="done" id="Tjo-ot-GzL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rNz-lZ-UQp">
+                    <navigationItem key="navigationItem" title="FIND" id="3wi-p0-X98">
+                        <barButtonItem key="leftBarButtonItem" image="refresh" id="n1a-Kq-1QG">
+                            <connections>
+                                <action selector="refreshButtonTouched:" destination="BYZ-38-t0r" id="PvQ-t5-iaL"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="xkb-4E-GZJ">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Frq-EN-HbG">
                                 <rect key="frame" x="276" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Refresh"/>
+                                <segments>
+                                    <segment title="" image="bicycle"/>
+                                    <segment title="" image="dock"/>
+                                </segments>
                                 <connections>
-                                    <action selector="refreshButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gl7-yJ-sP9"/>
+                                    <action selector="segmentedControlTouched:" destination="BYZ-38-t0r" eventType="valueChanged" id="0AU-ua-OFu"/>
                                 </connections>
-                            </button>
+                            </segmentedControl>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="kSD-fa-DVj" id="MMj-HT-u1a"/>
+                        <outlet property="segmentedControl" destination="Frq-EN-HbG" id="2fj-uH-UPr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,4 +91,9 @@
             <point key="canvasLocation" x="105" y="20"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bicycle" width="24" height="24"/>
+        <image name="dock" width="24" height="24"/>
+        <image name="refresh" width="24" height="24"/>
+    </resources>
 </document>

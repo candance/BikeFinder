@@ -15,6 +15,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
     // MARK: - Outlets and Variables
     
     @IBOutlet weak var mapView: MGLMapView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     private var bikeStations: Results<BikeStation>?
     private var pointAnnotations = [MGLPointAnnotation]()
@@ -30,7 +31,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
         mapView.userTrackingMode = .follow
                 
         fetchBikeStations()
-        pointAnnotations = annotateBikeStationsOnMap()
+        pointAnnotations = annotateBikeStationsOnMap(segmentedControl.selectedSegmentIndex)
         mapView.addAnnotations(pointAnnotations)
     }
     
@@ -43,7 +44,7 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
         }
     }
     
-    private func annotateBikeStationsOnMap() -> [CustomPointAnnotation] {
+    private func annotateBikeStationsOnMap(_ bikeOrDockIndex: Int) -> [CustomPointAnnotation] {
         var pointAnnotations = [CustomPointAnnotation]()
         if let bikeStations = bikeStations {
             for bikeStation in bikeStations {
@@ -51,26 +52,13 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
                 point.coordinate = CLLocationCoordinate2DMake(bikeStation.lat, bikeStation.lon)
                 point.title = bikeStation.name
                 point.subtitle = "Bikes: " + String(bikeStation.availableBikes) + ", Docks: " + String(bikeStation.availableDocks)
-                point.color = bikeStationStatusAnnotationColor(bikeStation)
+                point.color = statusAnnotationColor(bikeStation, bikeOrDockIndex)
                 pointAnnotations.append(point)
             }
         }
         return pointAnnotations
     }
-    
-    private func bikeStationStatusAnnotationColor(_ bikeStation: BikeStation) -> UIColor {
-        if bikeStation.isInstalled == true, bikeStation.isReturning == true, bikeStation.isRenting == true {
-            if bikeStation.availableBikes > 3, bikeStation.availableDocks > 3 {
-                return .green
-            } else if bikeStation.availableBikes == 0 || bikeStation.availableDocks == 0 {
-                return .red
-            } else {
-                return .orange
-            }
-        }
-        return .gray
-    }
-
+  
     // MARK: - MGLMapViewDelegate
     
     func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
@@ -114,13 +102,35 @@ class MapViewController: UIViewController, MGLMapViewDelegate, NetworkingManager
             }
         }
     }
-    
+
     // Used in <NetworkingManagerDelegate> as well
     func updateBikeStationStatuses() {
         fetchBikeStations()
         mapView.removeAnnotations(pointAnnotations)
-        pointAnnotations = annotateBikeStationsOnMap()
+        pointAnnotations = annotateBikeStationsOnMap(segmentedControl.selectedSegmentIndex)
         mapView.addAnnotations(pointAnnotations)
+    }
+    
+    // MARK: - Toggle Between Bike and Dock Mode
+
+    @IBAction func segmentedControlTouched(_ sender: Any) {
+        mapView.removeAnnotations(pointAnnotations)
+        pointAnnotations = annotateBikeStationsOnMap(segmentedControl.selectedSegmentIndex)
+        mapView.addAnnotations(pointAnnotations)
+    }
+    
+    private func statusAnnotationColor(_ bikeStation: BikeStation, _ bikeOrDockIndex: Int) -> UIColor {
+        let available = bikeOrDockIndex == 0 ? bikeStation.availableBikes : bikeStation.availableDocks
+        if bikeStation.isInstalled == true, bikeStation.isReturning == true, bikeStation.isRenting == true {
+            if available == 0 {
+                return .red
+            } else if available <= 3 {
+                return .orange
+            } else {
+                return .green
+            }
+        }
+        return .gray
     }
 }
 
