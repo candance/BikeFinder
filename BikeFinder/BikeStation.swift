@@ -9,19 +9,19 @@
 import Foundation
 import RealmSwift
 
-class BikeStation: Object {
-    dynamic var stationID = ""
-    dynamic var name = ""
-    dynamic var lat = 0.0
-    dynamic var lon = 0.0
-    dynamic var capacity = 0
-    dynamic var availableBikes = 0
-    dynamic var availableDocks = 0
-    dynamic var isInstalled = false
-    dynamic var isRenting = false
-    dynamic var isReturning = false
+public class BikeStation: Object {
+    public dynamic var stationID = ""
+    public dynamic var name = ""
+    public dynamic var lat = 0.0
+    public dynamic var lon = 0.0
+    public dynamic var capacity = 0
+    public dynamic var availableBikes = 0
+    public dynamic var availableDocks = 0
+    public dynamic var isInstalled = false
+    public dynamic var isRenting = false
+    public dynamic var isReturning = false
     
-    override static func primaryKey() -> String? {
+    override public static func primaryKey() -> String? {
         return "stationID"
     }
 }

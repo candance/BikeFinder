@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Mockingjay.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BikeFinder.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,10 +34,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>URITemplate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4C53BAEFAE63394E35029A957F7AED7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BAACC736A5215103E10E2DC0A74FDCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BAEE407D509A3F67350A21DD9179E25</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,12 +62,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D207131B3D910925BF6C4809B2242532</key>
+		<key>D8CB6A6A076288D3DECD17A0C9B4B22F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D8CB6A6A076288D3DECD17A0C9B4B22F</key>
+		<key>DEB438675C3F794B2D72697A642EB026</key>
 		<dict>
 			<key>primary</key>
 			<true/>

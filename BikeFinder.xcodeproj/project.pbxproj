@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D83DA321F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
-		0D83DA331F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
-		0D83DA341F364B8700D68266 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA311F364B8700D68266 /* NetworkingManager.swift */; };
 		0D83DA3E1F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
-		0D83DA3F1F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
-		0D83DA401F3674E400D68266 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83DA3D1F3674E400D68266 /* BikeStation.swift */; };
 		0DE058671F363D7100390D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058661F363D7100390D10 /* AppDelegate.swift */; };
 		0DE058691F363D7100390D10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058681F363D7100390D10 /* MapViewController.swift */; };
 		0DE0586C1F363D7100390D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586A1F363D7100390D10 /* Main.storyboard */; };
@@ -20,6 +16,7 @@
 		0DE058711F363D7100390D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0586F1F363D7100390D10 /* LaunchScreen.storyboard */; };
 		0DE0587C1F363D7200390D10 /* BikeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0587B1F363D7200390D10 /* BikeFinderTests.swift */; };
 		0DE058871F363D7200390D10 /* BikeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE058861F363D7200390D10 /* BikeFinderUITests.swift */; };
+		0DFA23561F3961E800DC0D36 /* MockJSON in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA23551F3961E800DC0D36 /* MockJSON */; };
 		2BCC907F2DD69E3AC99C1C68 /* Pods_BikeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CCA1A914C9F9D76A7F30F4 /* Pods_BikeFinderUITests.framework */; };
 		33EB6BE69E187620F68409BB /* Pods_BikeFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7595660966729A8EFDC9B /* Pods_BikeFinderTests.framework */; };
 		340D86A53E9BD5D65184B4FA /* Pods_BikeFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F053AE804FCB8DC8E893C86 /* Pods_BikeFinder.framework */; };
@@ -58,6 +55,7 @@
 		0DE058821F363D7200390D10 /* BikeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE058861F363D7200390D10 /* BikeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFinderUITests.swift; sourceTree = "<group>"; };
 		0DE058881F363D7200390D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFA23551F3961E800DC0D36 /* MockJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MockJSON; path = BikeFinderTests/MockJSON; sourceTree = SOURCE_ROOT; };
 		23A7595660966729A8EFDC9B /* Pods_BikeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7513F61D5C69EB57F105127C /* Pods-BikeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F053AE804FCB8DC8E893C86 /* Pods_BikeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +135,7 @@
 		0DE0587A1F363D7200390D10 /* BikeFinderTests */ = {
 			isa = PBXGroup;
 			children = (
+				0DFA23551F3961E800DC0D36 /* MockJSON */,
 				0DE0587B1F363D7200390D10 /* BikeFinderTests.swift */,
 				0DE0587D1F363D7200390D10 /* Info.plist */,
 			);
@@ -304,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFA23561F3961E800DC0D36 /* MockJSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +353,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinderTests/Pods-BikeFinderTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,9 +430,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -489,8 +499,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE0587C1F363D7200390D10 /* BikeFinderTests.swift in Sources */,
-				0D83DA3F1F3674E400D68266 /* BikeStation.swift in Sources */,
-				0D83DA331F364B8700D68266 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,8 +507,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE058871F363D7200390D10 /* BikeFinderUITests.swift in Sources */,
-				0D83DA401F3674E400D68266 /* BikeStation.swift in Sources */,
-				0D83DA341F364B8700D68266 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

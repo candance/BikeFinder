@@ -8,12 +8,10 @@ target 'BikeFinder' do
 
   target 'BikeFinderTests' do
     inherit! :search_paths
-    # Pods for testing
+	pod 'Mockingjay'
   end
 
   target 'BikeFinderUITests' do
     inherit! :search_paths
-    # Pods for testing
   end
-
 end
