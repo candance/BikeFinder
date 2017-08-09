@@ -9,17 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BikeFinder-BikeFinderUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BikeFinder.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-BikeFinderTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-BikeFinderUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,17 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>73ED17523446862F21860E9473EE2669</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D8CB6A6A076288D3DECD17A0C9B4B22F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DEB438675C3F794B2D72697A642EB026</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAE48A1CC61829385CDF9A2380EEE252</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -63,6 +63,7 @@
 		370826AE66DFB44262178C5FDB431DF0 /* RLMMigration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 833308471620410E7306F2293EE676B6 /* RLMMigration_Private.h */; };
 		372BB941B3EF4C81530686031A897469 /* MockingjayURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79BE482509B66F9F2D907F2F1F6668 /* MockingjayURLSessionConfiguration.m */; };
 		38BB42A17A63E6B65A814C6BA451539C /* RLMPlatform.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 9541CDBC47DD19B2B7B76C2AE33489A1 /* RLMPlatform.h */; };
+		39D687D2A5194E19FA61CCEA4BC06531 /* Pods-BikeFinder-BikeFinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA270EC3843733A3E51CC0BD343F799 /* Pods-BikeFinder-BikeFinderUITests-dummy.m */; };
 		3A21D87E455CFF609AD68D453BF04261 /* RLMSyncPermissionResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A7469CB3B0D30D87861211DE124E512 /* RLMSyncPermissionResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		3A65594E0B80217FCF0B6DFFBBBF26F8 /* RLMListBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AA5951B4D60FCDD304FDD119B70473 /* RLMListBase.h */; };
 		3B09E35707E94705F2262B7FF1D1FE8F /* collection_change_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB91A433FC1BA1E3F92FF7C83BAB237A /* collection_change_builder.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -80,7 +81,6 @@
 		47EE864F8435CBCFE79EC7D34F9A6FDE /* RLMRealmConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AAFB01B019BAE0F21098CBD8D2FA4F0 /* RLMRealmConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		4855E4AD2931E5A02950F41237228FC4 /* RealmSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4E5CC399C3E30AE20B88FF22B0F2A0 /* RealmSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B2FD6342A9A5CFDF2F03339461875C9 /* RLMSyncUtil.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2B23F8EBDDEA163C64ABD222DFD6B222 /* RLMSyncUtil.h */; };
-		4B95FDFBCEA9B1F85FE20F1033227716 /* Pods-BikeFinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4FCD50AC320DEC18A577442330B /* Pods-BikeFinderUITests-dummy.m */; };
 		4E106C4F49B0C97CF90E6D4C5691E4FB /* RLMMigration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FBA2B12F06126583C2D58CF26090357D /* RLMMigration.h */; };
 		4EAE06C5D11F9B2BED187A6E2A2D7C46 /* RLMCollection_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = D5876A41A925AD3DD83E538CEC327A0C /* RLMCollection_Private.h */; };
 		4FD2B27C871C06EEB19CA097642591CB /* RLMCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6171D0C6B6C9079288D343191EAE0742 /* RLMCollection.h */; };
@@ -111,6 +111,7 @@
 		6789A1F48651C749E63F52894AFD50D3 /* RLMAccessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02BE05045664F9A2E4154FC75573A47C /* RLMAccessor.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		68168F9B17C95289568C5192BB43995C /* RLMArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B26BA51C8C98545CC7854701537BB0 /* RLMArray.h */; };
 		68E0E152D5E1C15E7B51497A263FAA55 /* object_schema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73FA010AF26CDECF695C0622E85948BB /* object_schema.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		68EAB54E788D61D6D5C3D30362C71FA4 /* Pods-BikeFinder-BikeFinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE2FDB3DCC838596AEAEF8090EEE79 /* Pods-BikeFinder-BikeFinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69627B1284EB3494300C000F0C03823E /* URITemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DE7A8DD56BBCF1AC3B3E5186264624 /* URITemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B419F472302309AFAB96E6325FD781C /* RLMSyncSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEEE0204DC17840289EDA7B7F6336F75 /* RLMSyncSession.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		6B9D0F7DA20968E2070BF93D5446A56D /* RLMSyncCredentials.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 987C3C29B84A27680C30D35FAEE38553 /* RLMSyncCredentials.h */; };
@@ -186,7 +187,7 @@
 		BD6A6D3CFA0AD2E38ACA8B64B681D7D9 /* RLMCollection.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6171D0C6B6C9079288D343191EAE0742 /* RLMCollection.h */; };
 		BD9A26E3BE3269C00A3E8F5911853F7F /* Realm.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E3A3593BA78AF0F9026E11E966BE060A /* Realm.h */; };
 		BE6B70EA23E3C90285BB000DB9F720A2 /* RLMSyncPermissionChange_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 56208A55417BB7AE68B392EF115D971D /* RLMSyncPermissionChange_Private.h */; };
-		C0BFBF318415AEDE9D9DEECB3DDF493A /* Pods-BikeFinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1095EE8B5363485F8CEA59217B9AD /* Pods-BikeFinderTests-dummy.m */; };
+		C0BFBF318415AEDE9D9DEECB3DDF493A /* Pods-BikeFinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 541F47D7F41CEA6BA377A27740B93A6D /* Pods-BikeFinderTests-dummy.m */; };
 		C10DA192F6C9D3880C7A50B146E57724 /* RLMObjectSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 1FF298BD34583FE4AF9ABD897CF684AD /* RLMObjectSchema_Private.h */; };
 		C3BB8CDEBB10EC6131DF0DED0A77F51A /* LinkingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B473EDB0199DE40624EE8DA823252BE /* LinkingObjects.swift */; };
 		C4D0D4AB7B306875CA5541C64BEE1B5D /* RLMRealm_Dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8F01FFEC939401821FBE8902EE8AF8 /* RLMRealm_Dynamic.h */; };
@@ -194,15 +195,15 @@
 		C6DC5F4E9DE8018DB4AE41DDECB3F205 /* URITemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A61E17B29B03F4CD4E42748653F71A /* URITemplate-dummy.m */; };
 		C6EED8EC89219B1CDEB779E5DC092EFF /* Realm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A50C942011EB67AE16886528F80D28 /* Realm-dummy.m */; };
 		C7FF216E5199289ABA38A7B854EB401A /* RLMObjectSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D266251F86FE000CC0459CF0D63BE07 /* RLMObjectSchema.h */; };
-		C844DCA183213D4C21ECF8DE3C1C07BA /* Pods-BikeFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 132C1D681066275673037CC36AE4CC63 /* Pods-BikeFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C844DCA183213D4C21ECF8DE3C1C07BA /* Pods-BikeFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCDB2F01A404DEE19574FCB875A684 /* Pods-BikeFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8B02BC3E5D0D4B60A8761A4BE982C84 /* RLMRealm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72345DBF634D69826DD91B0F4B6CADB8 /* RLMRealm.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C97160F0BD696516249278855AB5D1FF /* keychain_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4224BFCD1B6781DF85F84CB34C660895 /* keychain_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		CA29367195D6ABECAC37D90A1662D2F7 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378355CEEF0492D6586E6F2E2DD64D15 /* Schema.swift */; };
 		CA79C2D733F4D5E944506AB87187F47F /* RLMSchema_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B997FDCAD5A101B902F63EBDC34203 /* RLMSchema_Private.h */; };
 		CBD95DE2475DD3C44711E77F0BC7B08A /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491EEB42FDD357499089680E5068165 /* URITemplate.swift */; };
 		CBDAED07CFCF07E69B25FEC63EC919E0 /* RLMSyncPermissionOfferResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC1FD0468A881E87F4B209AB8FF3E /* RLMSyncPermissionOfferResponse.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		CCADC36A6DD1A970341E1CC4929D5297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729DC1EE33BBEE94B58C294B45C64466 /* Foundation.framework */; };
 		CCF38E76594148EB39B7BD4FEE9BD4AC /* RLMObjectStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1442F062EA50193C699C131DEB18051D /* RLMObjectStore.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		CFE343CB3BE390FC25A882B574F24D39 /* Pods-BikeFinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F83623DCE45B8BE95D00FA0B84B9E4 /* Pods-BikeFinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0B4035D26E547B13B15EC12834167C1 /* RLMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF031D278876212FEFB807C4B8A21EC /* RLMObject.h */; };
 		D21316E74AE366151B2CE5FA4756456B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729DC1EE33BBEE94B58C294B45C64466 /* Foundation.framework */; };
 		D2D2B114ABE373B7B480366A8F289D75 /* RLMSyncConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F52436A15270173F0BF88A9B62E1989D /* RLMSyncConfiguration.h */; };
@@ -235,11 +236,10 @@
 		ED6FEAC28D70BCD147B54D71AD49A115 /* RLMSyncUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79DFAF2DE6C5E01D3AAEAC8A5EB5C179 /* RLMSyncUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		EDED276831044E2A890B5A9D3AA3560D /* placeholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65703B973E0D7C600DA20C90D54C0916 /* placeholder.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		EFA649616238F3B9E3D31726F614FD44 /* RLMThreadSafeReference.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A8DC7D6C40AF95065FA811574ADB859E /* RLMThreadSafeReference.h */; };
-		F11DCDA4E2CC8C76CCB4BB66C85FCC2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729DC1EE33BBEE94B58C294B45C64466 /* Foundation.framework */; };
 		F405E30C12DEEBD7216CC5514A383226 /* MockingjayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F5B4EF26C6F12027E0BF99551BC56 /* MockingjayProtocol.swift */; };
-		F80906FB5F17C2D6396C10091238399A /* Pods-BikeFinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CE3F407F05E6B71ED13112875FC03C /* Pods-BikeFinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80906FB5F17C2D6396C10091238399A /* Pods-BikeFinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D814A615808ED35486793949083BF9E2 /* Pods-BikeFinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA4D9DB100040B5C088DC8586035737A /* index_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A5F793E2ECBA56A8844058E5EED11 /* index_set.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.9.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		FBBEECC460FA86FBBF7E743CA521BEB8 /* Pods-BikeFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9D47F6CD5D3BEA1B79C2DA45EA52F /* Pods-BikeFinder-dummy.m */; };
+		FBBEECC460FA86FBBF7E743CA521BEB8 /* Pods-BikeFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4225D2459EF599B7FFD7280138F52 /* Pods-BikeFinder-dummy.m */; };
 		FCCAE7ABBE99D9F67B7E18287B76CC14 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38CBFE4511BC3F5A095B12EEE4E014 /* Migration.swift */; };
 		FE3C769A6A805E187604866851F5D9DC /* RealmCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C016625F9F0F96B1B95CE5A1E6C8DA6 /* RealmCollection.swift */; };
 		FEE50E6852F1ABCD1E687F3105339D3A /* RLMSyncPermissionChange.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7E6DA0E78ACF729D3D54E924318C763E /* RLMSyncPermissionChange.h */; };
@@ -267,6 +267,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5BAACC736A5215103E10E2DC0A74FDCD;
 			remoteInfo = Mockingjay;
+		};
+		7B477EAB5CB4950C56E29121ABB7BF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCD5CA039F45A2E1E7ADDA1D94EBAE4;
+			remoteInfo = RealmSwift;
+		};
+		9DA057ABC77ED32BA8B354FDADFDBD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CB6A6A076288D3DECD17A0C9B4B22F;
+			remoteInfo = Realm;
 		};
 		BAFC6A0423E124243C80339983802A9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -370,21 +384,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		012D0309357ADCF8E3D7FD7E4CC37DAF /* Pods-BikeFinderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderTests-frameworks.sh"; sourceTree = "<group>"; };
+		01C50A7FAB67A93219C737A209E61C3F /* Pods-BikeFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinder-acknowledgements.plist"; sourceTree = "<group>"; };
 		02BE05045664F9A2E4154FC75573A47C /* RLMAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAccessor.mm; path = Realm/RLMAccessor.mm; sourceTree = "<group>"; };
 		03FCC1FD0468A881E87F4B209AB8FF3E /* RLMSyncPermissionOfferResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOfferResponse.m; path = Realm/RLMSyncPermissionOfferResponse.m; sourceTree = "<group>"; };
 		050BA5B00A7E196FEA99D9BB551FC4EA /* binding_callback_thread_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = binding_callback_thread_observer.cpp; path = Realm/ObjectStore/src/binding_callback_thread_observer.cpp; sourceTree = "<group>"; };
+		06019A9343772594DB50F233C367404E /* Pods-BikeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		087FB404A2BBA2292A607DDBECCE3865 /* RLMProperty_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty_Private.h; path = include/RLMProperty_Private.h; sourceTree = "<group>"; };
 		08E8E404945A506D1EC933797EF3152A /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
-		09A37CE15B3C88B3A81F808E7B7DA51B /* Pods-BikeFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinder.modulemap"; sourceTree = "<group>"; };
+		0A6FE8C68C577FBCF76A3311CA78B7BE /* Pods-BikeFinder-BikeFinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinder-BikeFinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A7469CB3B0D30D87861211DE124E512 /* RLMSyncPermissionResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermissionResults.mm; path = Realm/RLMSyncPermissionResults.mm; sourceTree = "<group>"; };
-		0AE1095EE8B5363485F8CEA59217B9AD /* Pods-BikeFinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinderTests-dummy.m"; sourceTree = "<group>"; };
 		0B473EDB0199DE40624EE8DA823252BE /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
 		0C02FD1A820F8C61A847EF34F6C00E97 /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
-		0C8DAC96A6C5ADFB6E79F981213DC8A7 /* Pods-BikeFinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11EB006C83FC77DF4B3C373B3B39BE7F /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
-		125D87ADF6A85DBC358C79DE3F057C72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12CF74682C76BF90E34FCFEA8978A3B3 /* Pods-BikeFinderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderTests-frameworks.sh"; sourceTree = "<group>"; };
-		132C1D681066275673037CC36AE4CC63 /* Pods-BikeFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinder-umbrella.h"; sourceTree = "<group>"; };
+		1333C894B7E177F842DF208EF0DD2B1D /* Pods-BikeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		13801EC7ACE5BE9C39EC07C2340A2E75 /* RLMManagedArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMManagedArray.mm; path = Realm/RLMManagedArray.mm; sourceTree = "<group>"; };
 		141879D00B0DC3CEFE8E0A496F1D66D3 /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
 		1442F062EA50193C699C131DEB18051D /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
@@ -395,12 +408,13 @@
 		18EB030894D4E77665AF8A21906715E1 /* system_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = system_configuration.cpp; path = Realm/ObjectStore/src/sync/impl/apple/system_configuration.cpp; sourceTree = "<group>"; };
 		1A5872D4F67707BFD8A8C80C33CF888B /* sync_metadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_metadata.cpp; path = Realm/ObjectStore/src/sync/impl/sync_metadata.cpp; sourceTree = "<group>"; };
 		1B0F9AF2B144EAA192E422EF8FBBFAE5 /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
-		1C0170B68AB07C5FED3ED45C71695F66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1431101DDF1A8246AACC49EB080FB5 /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
+		1D433BAAD71A8B833419FB99025FFD9C /* Pods_BikeFinder_BikeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinder_BikeFinderUITests.framework; path = "Pods-BikeFinder-BikeFinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DAEC86B2015BADAAA22472C478078FF /* URITemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URITemplate-prefix.pch"; sourceTree = "<group>"; };
 		1DC96116B8084CFD964ABBF59A9823A5 /* RLMSyncPermissionOfferResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse.h; path = include/RLMSyncPermissionOfferResponse.h; sourceTree = "<group>"; };
-		1F196ADEA6A7590913A952BED0A97FFB /* Pods-BikeFinderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1E50617A331C318D37CAD8CA8142A3CA /* Pods-BikeFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-frameworks.sh"; sourceTree = "<group>"; };
 		1FF298BD34583FE4AF9ABD897CF684AD /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
+		1FF955C044FC18D1C5B04E752B1D69CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FFB4EFB58177C7FDDDAD5C504D4999B /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
 		2125F5DAED4EECE7F4ABE5A010570010 /* Aliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliases.swift; path = RealmSwift/Aliases.swift; sourceTree = "<group>"; };
 		220A412D724879673850E082D35475A2 /* RLMSyncPermission_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermission_Private.h; path = include/RLMSyncPermission_Private.h; sourceTree = "<group>"; };
@@ -409,28 +423,23 @@
 		2548457153CE8241CC7520A886A16280 /* Mockingjay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mockingjay.h; path = Mockingjay/Mockingjay.h; sourceTree = "<group>"; };
 		25927377F4978964175090D0BE72B3AC /* object_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_notifier.cpp; path = Realm/ObjectStore/src/impl/object_notifier.cpp; sourceTree = "<group>"; };
 		25A61E17B29B03F4CD4E42748653F71A /* URITemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URITemplate-dummy.m"; sourceTree = "<group>"; };
-		28F83623DCE45B8BE95D00FA0B84B9E4 /* Pods-BikeFinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinderUITests-umbrella.h"; sourceTree = "<group>"; };
+		27EC1A31C5872335D0A332C435953D9E /* Pods-BikeFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-resources.sh"; sourceTree = "<group>"; };
 		2918AAA9E1FE6A3BA27CE47AB4722AB3 /* RLMSyncPermissionOffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOffer.m; path = Realm/RLMSyncPermissionOffer.m; sourceTree = "<group>"; };
 		29AFD0C6C1F948F1F8AB4B342EFB4D2E /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
 		2A3FB20D4AF13A3DA952FA55F2563EEE /* Mockingjay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mockingjay.swift; path = Mockingjay/Mockingjay.swift; sourceTree = "<group>"; };
 		2B23F8EBDDEA163C64ABD222DFD6B222 /* RLMSyncUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil.h; path = include/RLMSyncUtil.h; sourceTree = "<group>"; };
 		2DB1711C377C5D8BC129AE2409B2B93D /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
 		2DC3FBD21445DBC23453DF421B93BAB0 /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
-		2ECF167EA7BD694BF7AB2C682403C72A /* Pods-BikeFinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FF92F49311FE2ACB327BBE9F89FAD0D /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
 		310623F675A2E108041C14248BE83EAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31CE3F407F05E6B71ED13112875FC03C /* Pods-BikeFinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinderTests-umbrella.h"; sourceTree = "<group>"; };
-		353B7ECBBB91ABE96C5878DFB017B6D6 /* Pods-BikeFinderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderTests-resources.sh"; sourceTree = "<group>"; };
+		344EF727F41AFED59245ACF8682D39CD /* Mockingjay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mockingjay.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35ACEC57D4520CFCCB2E7D80895DA2AE /* RLMSyncManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager_Private.h; path = include/RLMSyncManager_Private.h; sourceTree = "<group>"; };
-		35FCD22103E987E3957575E08DB979FC /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		378355CEEF0492D6586E6F2E2DD64D15 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = RealmSwift/Schema.swift; sourceTree = "<group>"; };
+		37D0E42EF0208833340777704F6EBBCD /* Pods-BikeFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
 		382E64E35F4A90E4783F2D0E8E34F16A /* Results.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Results.swift; path = RealmSwift/Results.swift; sourceTree = "<group>"; };
-		38572A3C85274F778226EDD867B9798A /* Pods-BikeFinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinderUITests.modulemap"; sourceTree = "<group>"; };
 		39EAAA662CE63E42FD0CDF33F2377795 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		3BABF238C6EE55A42031CDCDEF61651B /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RealmSwift.modulemap; sourceTree = "<group>"; };
-		3CB591C904632D26602B971FDE6F8BF6 /* Pods-BikeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3CFB618561F3E74AB92DF279DFDD8995 /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
-		40496028CC02202D75B2FF23D08DAE97 /* Pods-BikeFinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		406A19A1C948CEB98D2FE131ED757E9F /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
 		40BE46086685AB31C617485DA09DA7CE /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
 		4173ACBF71FE44C185FBCAAC5F09EFF5 /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
@@ -450,18 +459,20 @@
 		4F246CA73070CB0ECCEF27D1C54456E0 /* object.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object.cpp; path = Realm/ObjectStore/src/object.cpp; sourceTree = "<group>"; };
 		4F5F691C67289136310299D54DB4912F /* Realm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Realm.xcconfig; sourceTree = "<group>"; };
 		505BDEA2837112BFA4DEA01E3C0F4F5B /* RLMSyncPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermission.h; path = include/RLMSyncPermission.h; sourceTree = "<group>"; };
+		52DCDB2F01A404DEE19574FCB875A684 /* Pods-BikeFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinder-umbrella.h"; sourceTree = "<group>"; };
 		5408805D4A42C859E42361E61378CC21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		541F47D7F41CEA6BA377A27740B93A6D /* Pods-BikeFinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinderTests-dummy.m"; sourceTree = "<group>"; };
 		546131843BCCCDC6DBFE6D66EC64B481 /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
 		5488573550EF131866F2BCB086DAC61D /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
 		55042B3B08763D0B1FE8AE3F34476E5F /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
 		5600702D2FEAB378F03356D92DE1D330 /* librealmcore-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "librealmcore-ios.a"; path = "core/librealmcore-ios.a"; sourceTree = "<group>"; };
 		5603994ED6D553CDDAD8F213BC361C3B /* format.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cpp; path = Realm/ObjectStore/src/util/format.cpp; sourceTree = "<group>"; };
 		56208A55417BB7AE68B392EF115D971D /* RLMSyncPermissionChange_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange_Private.h; path = include/RLMSyncPermissionChange_Private.h; sourceTree = "<group>"; };
+		56B2CA89E165C497FC8409428CD5ECF0 /* Pods-BikeFinder-BikeFinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinder-BikeFinderUITests.modulemap"; sourceTree = "<group>"; };
 		56C76F9A5110EDAF575A903CF75FA8B3 /* results_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results_notifier.cpp; path = Realm/ObjectStore/src/impl/results_notifier.cpp; sourceTree = "<group>"; };
 		57542A43D008CCC14B4BCE8C0916ECFE /* RLMObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObject.mm; path = Realm/RLMObject.mm; sourceTree = "<group>"; };
 		59DE7A8DD56BBCF1AC3B3E5186264624 /* URITemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URITemplate-umbrella.h"; sourceTree = "<group>"; };
 		5A0F44AE935C8A4B4EAE87159A264BA6 /* RLMSyncPermissionOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer.h; path = include/RLMSyncPermissionOffer.h; sourceTree = "<group>"; };
-		5BA4F4FCD50AC320DEC18A577442330B /* Pods-BikeFinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinderUITests-dummy.m"; sourceTree = "<group>"; };
 		5F4E5CC399C3E30AE20B88FF22B0F2A0 /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
 		609BFADFB8B67EFDC9945459DB1FC874 /* RLMObjectBase_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Private.h; path = include/RLMObjectBase_Private.h; sourceTree = "<group>"; };
 		6171D0C6B6C9079288D343191EAE0742 /* RLMCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection.h; path = include/RLMCollection.h; sourceTree = "<group>"; };
@@ -480,24 +491,22 @@
 		6A477C2D05CF97BB097CBF6218306BF0 /* RLMSyncPermissionOffer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer_Private.h; path = include/RLMSyncPermissionOffer_Private.h; sourceTree = "<group>"; };
 		6AAFB01B019BAE0F21098CBD8D2FA4F0 /* RLMRealmConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmConfiguration.mm; path = Realm/RLMRealmConfiguration.mm; sourceTree = "<group>"; };
 		6B1A5F793E2ECBA56A8844058E5EED11 /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
-		6C076C7BAFADB29A61B6487B5491CE73 /* Pods-BikeFinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinderTests.modulemap"; sourceTree = "<group>"; };
 		6C463B451CF16CD4F8A77889E6664F04 /* RLMObservation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObservation.mm; path = Realm/RLMObservation.mm; sourceTree = "<group>"; };
+		6DD6288BA6FBAD56DA5C2F280C849CD1 /* Pods-BikeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA588FA19F9EE4C5EEAF1728CCC6F24 /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
+		7054038AA8A286FEA8E19CC82E4E71AA /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B3F5C13A9693637B4E7F5BB2A757D4 /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
 		72345DBF634D69826DD91B0F4B6CADB8 /* RLMRealm.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealm.mm; path = Realm/RLMRealm.mm; sourceTree = "<group>"; };
 		729DC1EE33BBEE94B58C294B45C64466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		731A24B22A6094078B7C5B1C14E6C11E /* Pods_BikeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinderUITests.framework; path = "Pods-BikeFinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		738945B9B6077A62B8DD570B5DCC33E7 /* Pods-BikeFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinder-acknowledgements.plist"; sourceTree = "<group>"; };
 		73FA010AF26CDECF695C0622E85948BB /* object_schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_schema.cpp; path = Realm/ObjectStore/src/object_schema.cpp; sourceTree = "<group>"; };
 		74C008239EAA3D0C37B51D8BC8E9B89C /* RLMProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMProperty.mm; path = Realm/RLMProperty.mm; sourceTree = "<group>"; };
-		7515AD16D34B4EA2CD81EFE7C40FAB55 /* Pods-BikeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		772C762DE50BC8B7A889F33FF02316D1 /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
 		779EA02F73DD9B26FBD0AF9099ACC7CE /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F89D13C9B91C6D6A97183AA4A22D14 /* RLMArray_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray_Private.h; path = include/RLMArray_Private.h; sourceTree = "<group>"; };
-		798160503C2731183961044B4E917AEC /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URITemplate.framework; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DFAF2DE6C5E01D3AAEAC8A5EB5C179 /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
 		79EB5B80EB4ED5BDC645B21526D373FF /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
 		7AE77C277449FB11CC1E1CC640A003A5 /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
+		7DA523A86FFA5D9BEB046F71E55D5D97 /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URITemplate.framework; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA95184E2060A75A8BD8D3B1A7E2985 /* RLMSyncPermissionValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermissionValue.mm; path = Realm/RLMSyncPermissionValue.mm; sourceTree = "<group>"; };
 		7E6DA0E78ACF729D3D54E924318C763E /* RLMSyncPermissionChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange.h; path = include/RLMSyncPermissionChange.h; sourceTree = "<group>"; };
 		7FAAEF500ADBB6855DFC763A7B06DA95 /* RLMThreadSafeReference.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMThreadSafeReference.mm; path = Realm/RLMThreadSafeReference.mm; sourceTree = "<group>"; };
@@ -506,31 +515,31 @@
 		830F6B1E873E243D105F4FEE1D94A837 /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
 		833308471620410E7306F2293EE676B6 /* RLMMigration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration_Private.h; path = include/RLMMigration_Private.h; sourceTree = "<group>"; };
 		8583E7D8DF8D150123048027E33005D2 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
+		877C56E990D8AA4D9ACD794B620784BF /* Pods-BikeFinder-BikeFinderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-BikeFinderUITests-frameworks.sh"; sourceTree = "<group>"; };
 		885D410CFA7E4968DF0961AA4379A512 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
 		891B041714F7D91714A04495A105069F /* Realm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Realm.swift; path = RealmSwift/Realm.swift; sourceTree = "<group>"; };
+		89513606B2FAF88177AE3F5E9E403D1C /* Pods-BikeFinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AEF3C1B383513CB34AF0A53576ACE44 /* RLMSyncErrorResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncErrorResponseModel.m; path = Realm/RLMSyncErrorResponseModel.m; sourceTree = "<group>"; };
 		8C02129B0729B632159C33CFCE603336 /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
 		929EE8E1A2DFAAAC9E08EC55E3122928 /* URITemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = URITemplate.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9491EEB42FDD357499089680E5068165 /* URITemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URITemplate.swift; path = Sources/URITemplate.swift; sourceTree = "<group>"; };
 		9541CDBC47DD19B2B7B76C2AE33489A1 /* RLMPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMPlatform.h; path = include/RLMPlatform.h; sourceTree = "<group>"; };
+		958789263A4466718C5ABF5C610DA1A5 /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder-BikeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		968C2C84BED2D1E17262183AF7517056 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987C3C29B84A27680C30D35FAEE38553 /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
 		9903C7D095166BFD8AF63BA6038BE995 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
-		99B63053326A3A14717B344DD73D6752 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A6A8CF3417EEA353400936F2B9A3CC4 /* RLMNetworkClient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMNetworkClient.mm; path = Realm/RLMNetworkClient.mm; sourceTree = "<group>"; };
 		9C016625F9F0F96B1B95CE5A1E6C8DA6 /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
-		9DCB97BEFD90CDA41C6C42BEF1B25389 /* Pods-BikeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E7F9FA314CAAE9BA8EE5491A0C43AD9 /* Mockingjay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Mockingjay.modulemap; sourceTree = "<group>"; };
-		9EBEEF53F002A8338F34754BDB28B505 /* Pods-BikeFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-resources.sh"; sourceTree = "<group>"; };
-		9F0267D80A537F7B9803E98019B2CC15 /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
 		9F98985AAE4B4B67EDA35BF220860B99 /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
-		A014A521929AD849151F9BF495C5CA47 /* Pods-BikeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FE4225D2459EF599B7FFD7280138F52 /* Pods-BikeFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinder-dummy.m"; sourceTree = "<group>"; };
 		A293FDECB406EA5BD967748210EA6DBE /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
 		A365BA2012577DE481516AF503672588 /* RLMSyncPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermission.m; path = Realm/RLMSyncPermission.m; sourceTree = "<group>"; };
 		A36F9B5F3818B05885CBEFFFD158B4D4 /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
+		A37A89AB8F0ACAE7795B82C63BB5F406 /* Pods-BikeFinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3BDE9E28A205C68C535559EB252FB5C /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
 		A863B279B5EB56FD3A4C49552E66650B /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
-		A8C762D5A09FA948605F7898555DB2D8 /* Pods_BikeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinder.framework; path = "Pods-BikeFinder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DC7D6C40AF95065FA811574ADB859E /* RLMThreadSafeReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMThreadSafeReference.h; path = include/RLMThreadSafeReference.h; sourceTree = "<group>"; };
 		A9CF6B64C768DF2A48C616C91667B3A8 /* SortDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortDescriptor.swift; path = RealmSwift/SortDescriptor.swift; sourceTree = "<group>"; };
 		AA0736D505DEF566C0762429139CCD89 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
@@ -540,59 +549,64 @@
 		AD810B0F36843F1CCFB799DE39DAE1AC /* object_store.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_store.cpp; path = Realm/ObjectStore/src/object_store.cpp; sourceTree = "<group>"; };
 		ADCBCC06B8D298DBC1D4D174973EFB92 /* Mockingjay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mockingjay-prefix.pch"; sourceTree = "<group>"; };
 		B03F5B4EF26C6F12027E0BF99551BC56 /* MockingjayProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingjayProtocol.swift; path = Mockingjay/MockingjayProtocol.swift; sourceTree = "<group>"; };
-		B205A6312DEB910C454F9A1DED9C7945 /* Pods-BikeFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2A50C942011EB67AE16886528F80D28 /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
+		B30A0582AFF297B6608CCAC364DEB0C2 /* Pods_BikeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinder.framework; path = "Pods-BikeFinder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43EFA3CD16AEC615D1640B309D3D5BE /* RLMAnalytics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAnalytics.mm; path = Realm/RLMAnalytics.mm; sourceTree = "<group>"; };
 		B467FD4C97860247E6294F6A16D11586 /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
-		B662BCA229F9E606E5AB03AF82F3B0EE /* Pods_BikeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinderTests.framework; path = "Pods-BikeFinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51D0FF9A909BC3AA2BAC12A17F6BCE8 /* Pods-BikeFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinder.modulemap"; sourceTree = "<group>"; };
+		B6DEB1932C4BB2D0C650732DBC0F2980 /* Pods_BikeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeFinderTests.framework; path = "Pods-BikeFinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B989540A042CC91E05D4418192A86122 /* RLMSyncUser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUser.mm; path = Realm/RLMSyncUser.mm; sourceTree = "<group>"; };
 		B9A03609AA556A1C8B9C5705FB15106D /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RealmSwift/Optional.swift; sourceTree = "<group>"; };
 		BB91A433FC1BA1E3F92FF7C83BAB237A /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
-		BF42F5308B50EA3E09D8D7B0AE054033 /* Pods-BikeFinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C08AC00ABDED84F7136DB5BA41D596E2 /* Pods-BikeFinderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderUITests-resources.sh"; sourceTree = "<group>"; };
+		BF0DA19A16E06EF3B8B4FFD9475D295E /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder-BikeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C5684ABCE2C570F6D5C042E069C3CE /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
-		C27CC25BADA407C95D66F17EB8C65645 /* Pods-BikeFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-frameworks.sh"; sourceTree = "<group>"; };
 		C4D790DA35231C4D92FE59BB35684233 /* sync_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_file.cpp; path = Realm/ObjectStore/src/sync/impl/sync_file.cpp; sourceTree = "<group>"; };
 		C4EC819ACBB1A051D4E7F60FFCBA7854 /* RealmSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealmSwift.xcconfig; sourceTree = "<group>"; };
 		C514F15E709B3FDB8C11F4E76ACFF125 /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
-		C5E9D47F6CD5D3BEA1B79C2DA45EA52F /* Pods-BikeFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinder-dummy.m"; sourceTree = "<group>"; };
 		CA3ECC5A7C21D959FEA4DF8F9FB06084 /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
 		CA87B8C10B899B7F42F725E901BB5C0C /* sync_session.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_session.cpp; path = Realm/ObjectStore/src/sync/sync_session.cpp; sourceTree = "<group>"; };
 		CB38CBFE4511BC3F5A095B12EEE4E014 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
 		CEA939D94B44E778A3F42BC582660DF5 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEE0204DC17840289EDA7B7F6336F75 /* RLMSyncSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSession.mm; path = Realm/RLMSyncSession.mm; sourceTree = "<group>"; };
 		CEF27DD3CE918D46402273565D4E32C1 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
-		D0C325F57E06A74E3E8BF1E9A13F1536 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BF639D071BE39CC06B6D4448A3B5C5 /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
 		D19C7E99AB7BFE32C7BE0C188CD5085B /* RLMResults_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults_Private.h; path = include/RLMResults_Private.h; sourceTree = "<group>"; };
 		D2C3739408B56259C9406FF4D18187DD /* uuid.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.cpp; path = Realm/ObjectStore/src/util/uuid.cpp; sourceTree = "<group>"; };
+		D366D064A17EE593F0A1FFF3DDFA4727 /* Pods-BikeFinder-BikeFinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeFinder-BikeFinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D3B26BA51C8C98545CC7854701537BB0 /* RLMArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray.h; path = include/RLMArray.h; sourceTree = "<group>"; };
 		D459B0AC2F074946EEB541AC84F29EFD /* RLMRealmUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmUtil.mm; path = Realm/RLMRealmUtil.mm; sourceTree = "<group>"; };
 		D49FB761943393E17998E450BF8468A2 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
 		D5876A41A925AD3DD83E538CEC327A0C /* RLMCollection_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection_Private.h; path = include/RLMCollection_Private.h; sourceTree = "<group>"; };
 		D5C22385E932309B3C59227516E83E2D /* sync_permission.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_permission.cpp; path = Realm/ObjectStore/src/sync/sync_permission.cpp; sourceTree = "<group>"; };
 		D614AA88341D09BF9C65242A4FBDD24E /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
-		D66C85C2342E0856BAEF0C048227CF54 /* Pods-BikeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D68E76DDDD2E8A44CDE086DADC250CBE /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
 		D7E6E9601D88B3E51A5FBF1135423FE8 /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
+		D814A615808ED35486793949083BF9E2 /* Pods-BikeFinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinderTests-umbrella.h"; sourceTree = "<group>"; };
 		D8A66D28F55F87E06725ECFAA75DC030 /* RLMJSONModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMJSONModels.m; path = Realm/RLMJSONModels.m; sourceTree = "<group>"; };
 		DA0828623D8847216DF9ADB85EB26F44 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RealmSwift/Error.swift; sourceTree = "<group>"; };
 		DA1085DDAB0D5A6B272F68D9A6C12F65 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
+		DDA270EC3843733A3E51CC0BD343F799 /* Pods-BikeFinder-BikeFinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeFinder-BikeFinderUITests-dummy.m"; sourceTree = "<group>"; };
 		E09669F7D1A0CEF246FBA2681B313154 /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
 		E3A3593BA78AF0F9026E11E966BE060A /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
+		E53752900EB4F17D49B27C02B7DA2A14 /* Pods-BikeFinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BikeFinderTests.modulemap"; sourceTree = "<group>"; };
 		EAD59712F2E385ECE390C2847770FDE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8D5BDD3B9D72F0003C5FD4518C7080 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6652B9231D4BBA426BAE83B05BB07A /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
+		EFAE2FDB3DCC838596AEAEF8090EEE79 /* Pods-BikeFinder-BikeFinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeFinder-BikeFinderUITests-umbrella.h"; sourceTree = "<group>"; };
+		F00E640CEEE4343E5349FD62A32A0F2E /* Pods-BikeFinder-BikeFinderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinder-BikeFinderUITests-resources.sh"; sourceTree = "<group>"; };
 		F05047EC5032EBE678E38FCC7AF204C5 /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
 		F176E4EBE8C1F99969029927E0FF3381 /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
 		F27F57544FE689431E5323A46C967FEC /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
 		F335A1F12D4E3FBF01E42E173CB051B5 /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
 		F355C0198D9AFAE9C5061D131B6EE130 /* RLMSyncPermissionOfferResponse_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse_Private.h; path = include/RLMSyncPermissionOfferResponse_Private.h; sourceTree = "<group>"; };
+		F35A0361C16C9B259D8515511BFDAE2E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52436A15270173F0BF88A9B62E1989D /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
+		F6A38F88AF92155AFED053A5D08050FF /* Pods-BikeFinderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeFinderTests-resources.sh"; sourceTree = "<group>"; };
 		F77B6594295EF9BE75C4AE714A51B2F3 /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
 		F7F9FC2B93A6D84E31DDAD7E7FBA2269 /* Mockingjay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mockingjay.xcconfig; sourceTree = "<group>"; };
 		F865A64412A2E8255D054FFB77904D35 /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
 		FBA2B12F06126583C2D58CF26090357D /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
 		FC79BE482509B66F9F2D907F2F1F6668 /* MockingjayURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MockingjayURLSessionConfiguration.m; path = Mockingjay/MockingjayURLSessionConfiguration.m; sourceTree = "<group>"; };
-		FE9549968320E1506217FDBB918FE07D /* Mockingjay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mockingjay.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3CDD85A5DECE0293588313BB0244D3 /* Mockingjay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mockingjay-dummy.m"; sourceTree = "<group>"; };
 		FF88BFAD5D432282FC35C83A21A33A06 /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
 		FF8F01FFEC939401821FBE8902EE8AF8 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
@@ -612,14 +626,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BCD7E781B0AB95E3D520414A923B57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B0FB143927B5185B091CD8EC79F6258 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F11DCDA4E2CC8C76CCB4BB66C85FCC2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,9 +664,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA8F5BA4B84DB3FD45E6495005951A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCADC36A6DD1A970341E1CC4929D5297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0816EAF4349D258949A0FE6D42767A3E /* Pods-BikeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				1FF955C044FC18D1C5B04E752B1D69CB /* Info.plist */,
+				B51D0FF9A909BC3AA2BAC12A17F6BCE8 /* Pods-BikeFinder.modulemap */,
+				37D0E42EF0208833340777704F6EBBCD /* Pods-BikeFinder-acknowledgements.markdown */,
+				01C50A7FAB67A93219C737A209E61C3F /* Pods-BikeFinder-acknowledgements.plist */,
+				9FE4225D2459EF599B7FFD7280138F52 /* Pods-BikeFinder-dummy.m */,
+				1E50617A331C318D37CAD8CA8142A3CA /* Pods-BikeFinder-frameworks.sh */,
+				27EC1A31C5872335D0A332C435953D9E /* Pods-BikeFinder-resources.sh */,
+				52DCDB2F01A404DEE19574FCB875A684 /* Pods-BikeFinder-umbrella.h */,
+				06019A9343772594DB50F233C367404E /* Pods-BikeFinder.debug.xcconfig */,
+				D0BF639D071BE39CC06B6D4448A3B5C5 /* Pods-BikeFinder.release.xcconfig */,
+			);
+			name = "Pods-BikeFinder";
+			path = "Target Support Files/Pods-BikeFinder";
+			sourceTree = "<group>";
+		};
 		18E578C4BA73EC133748BFD97579945C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -673,6 +705,24 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/URITemplate";
+			sourceTree = "<group>";
+		};
+		217A49885A20E93BAD2C823CC922AFF9 /* Pods-BikeFinder-BikeFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				968C2C84BED2D1E17262183AF7517056 /* Info.plist */,
+				56B2CA89E165C497FC8409428CD5ECF0 /* Pods-BikeFinder-BikeFinderUITests.modulemap */,
+				0A6FE8C68C577FBCF76A3311CA78B7BE /* Pods-BikeFinder-BikeFinderUITests-acknowledgements.markdown */,
+				D366D064A17EE593F0A1FFF3DDFA4727 /* Pods-BikeFinder-BikeFinderUITests-acknowledgements.plist */,
+				DDA270EC3843733A3E51CC0BD343F799 /* Pods-BikeFinder-BikeFinderUITests-dummy.m */,
+				877C56E990D8AA4D9ACD794B620784BF /* Pods-BikeFinder-BikeFinderUITests-frameworks.sh */,
+				F00E640CEEE4343E5349FD62A32A0F2E /* Pods-BikeFinder-BikeFinderUITests-resources.sh */,
+				EFAE2FDB3DCC838596AEAEF8090EEE79 /* Pods-BikeFinder-BikeFinderUITests-umbrella.h */,
+				BF0DA19A16E06EF3B8B4FFD9475D295E /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */,
+				958789263A4466718C5ABF5C610DA1A5 /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */,
+			);
+			name = "Pods-BikeFinder-BikeFinderUITests";
+			path = "Target Support Files/Pods-BikeFinder-BikeFinderUITests";
 			sourceTree = "<group>";
 		};
 		3C029B51E30E796988A9F3FF8C9C3FF4 /* iOS */ = {
@@ -698,48 +748,12 @@
 			path = "../Target Support Files/Mockingjay";
 			sourceTree = "<group>";
 		};
-		45F56F75E7E1F9754BFC451950CB87ED /* Pods-BikeFinderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1C0170B68AB07C5FED3ED45C71695F66 /* Info.plist */,
-				38572A3C85274F778226EDD867B9798A /* Pods-BikeFinderUITests.modulemap */,
-				40496028CC02202D75B2FF23D08DAE97 /* Pods-BikeFinderUITests-acknowledgements.markdown */,
-				2ECF167EA7BD694BF7AB2C682403C72A /* Pods-BikeFinderUITests-acknowledgements.plist */,
-				5BA4F4FCD50AC320DEC18A577442330B /* Pods-BikeFinderUITests-dummy.m */,
-				1F196ADEA6A7590913A952BED0A97FFB /* Pods-BikeFinderUITests-frameworks.sh */,
-				C08AC00ABDED84F7136DB5BA41D596E2 /* Pods-BikeFinderUITests-resources.sh */,
-				28F83623DCE45B8BE95D00FA0B84B9E4 /* Pods-BikeFinderUITests-umbrella.h */,
-				A014A521929AD849151F9BF495C5CA47 /* Pods-BikeFinderUITests.debug.xcconfig */,
-				3CB591C904632D26602B971FDE6F8BF6 /* Pods-BikeFinderUITests.release.xcconfig */,
-			);
-			name = "Pods-BikeFinderUITests";
-			path = "Target Support Files/Pods-BikeFinderUITests";
-			sourceTree = "<group>";
-		};
 		575968E34237B63B12C4F377930131CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5600702D2FEAB378F03356D92DE1D330 /* librealmcore-ios.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6B95B93681AD39D7F53259664382F318 /* Pods-BikeFinder */ = {
-			isa = PBXGroup;
-			children = (
-				99B63053326A3A14717B344DD73D6752 /* Info.plist */,
-				09A37CE15B3C88B3A81F808E7B7DA51B /* Pods-BikeFinder.modulemap */,
-				B205A6312DEB910C454F9A1DED9C7945 /* Pods-BikeFinder-acknowledgements.markdown */,
-				738945B9B6077A62B8DD570B5DCC33E7 /* Pods-BikeFinder-acknowledgements.plist */,
-				C5E9D47F6CD5D3BEA1B79C2DA45EA52F /* Pods-BikeFinder-dummy.m */,
-				C27CC25BADA407C95D66F17EB8C65645 /* Pods-BikeFinder-frameworks.sh */,
-				9EBEEF53F002A8338F34754BDB28B505 /* Pods-BikeFinder-resources.sh */,
-				132C1D681066275673037CC36AE4CC63 /* Pods-BikeFinder-umbrella.h */,
-				7515AD16D34B4EA2CD81EFE7C40FAB55 /* Pods-BikeFinder.debug.xcconfig */,
-				9F0267D80A537F7B9803E98019B2CC15 /* Pods-BikeFinder.release.xcconfig */,
-			);
-			name = "Pods-BikeFinder";
-			path = "Target Support Files/Pods-BikeFinder";
 			sourceTree = "<group>";
 		};
 		6BF8324B38C3DC323A0C969F592A5F35 /* Core */ = {
@@ -756,18 +770,22 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		6EDD6FE3CF5AAF603EE50D94CCD2D6E7 /* Products */ = {
+		749E61D50527C00A77697DDD0F733D3C /* Pods-BikeFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE9549968320E1506217FDBB918FE07D /* Mockingjay.framework */,
-				A8C762D5A09FA948605F7898555DB2D8 /* Pods_BikeFinder.framework */,
-				B662BCA229F9E606E5AB03AF82F3B0EE /* Pods_BikeFinderTests.framework */,
-				731A24B22A6094078B7C5B1C14E6C11E /* Pods_BikeFinderUITests.framework */,
-				D0C325F57E06A74E3E8BF1E9A13F1536 /* Realm.framework */,
-				35FCD22103E987E3957575E08DB979FC /* RealmSwift.framework */,
-				798160503C2731183961044B4E917AEC /* URITemplate.framework */,
+				EC8D5BDD3B9D72F0003C5FD4518C7080 /* Info.plist */,
+				E53752900EB4F17D49B27C02B7DA2A14 /* Pods-BikeFinderTests.modulemap */,
+				89513606B2FAF88177AE3F5E9E403D1C /* Pods-BikeFinderTests-acknowledgements.markdown */,
+				A37A89AB8F0ACAE7795B82C63BB5F406 /* Pods-BikeFinderTests-acknowledgements.plist */,
+				541F47D7F41CEA6BA377A27740B93A6D /* Pods-BikeFinderTests-dummy.m */,
+				012D0309357ADCF8E3D7FD7E4CC37DAF /* Pods-BikeFinderTests-frameworks.sh */,
+				F6A38F88AF92155AFED053A5D08050FF /* Pods-BikeFinderTests-resources.sh */,
+				D814A615808ED35486793949083BF9E2 /* Pods-BikeFinderTests-umbrella.h */,
+				6DD6288BA6FBAD56DA5C2F280C849CD1 /* Pods-BikeFinderTests.debug.xcconfig */,
+				1333C894B7E177F842DF208EF0DD2B1D /* Pods-BikeFinderTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-BikeFinderTests";
+			path = "Target Support Files/Pods-BikeFinderTests";
 			sourceTree = "<group>";
 		};
 		7AD761B9E3060D195759F3C2110963DB /* URITemplate */ = {
@@ -786,8 +804,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A5FE3CDC9A46E3D0B8766377031A4D81 /* Frameworks */,
 				94FB5D09317F31133F9CEB0E6A799F7C /* Pods */,
-				6EDD6FE3CF5AAF603EE50D94CCD2D6E7 /* Products */,
-				D6A58D56E071E87FA1389721F56F963E /* Targets Support Files */,
+				B6C8211B2CF64D0E6B1F24BB01DBFEA2 /* Products */,
+				E0BF99C2EC294D574EC65FD03E54E58B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -811,24 +829,6 @@
 			name = XCTest;
 			sourceTree = "<group>";
 		};
-		9717FDC0B4006BF87AFCE8A264CCEDF8 /* Pods-BikeFinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				125D87ADF6A85DBC358C79DE3F057C72 /* Info.plist */,
-				6C076C7BAFADB29A61B6487B5491CE73 /* Pods-BikeFinderTests.modulemap */,
-				0C8DAC96A6C5ADFB6E79F981213DC8A7 /* Pods-BikeFinderTests-acknowledgements.markdown */,
-				BF42F5308B50EA3E09D8D7B0AE054033 /* Pods-BikeFinderTests-acknowledgements.plist */,
-				0AE1095EE8B5363485F8CEA59217B9AD /* Pods-BikeFinderTests-dummy.m */,
-				12CF74682C76BF90E34FCFEA8978A3B3 /* Pods-BikeFinderTests-frameworks.sh */,
-				353B7ECBBB91ABE96C5878DFB017B6D6 /* Pods-BikeFinderTests-resources.sh */,
-				31CE3F407F05E6B71ED13112875FC03C /* Pods-BikeFinderTests-umbrella.h */,
-				D66C85C2342E0856BAEF0C048227CF54 /* Pods-BikeFinderTests.debug.xcconfig */,
-				9DCB97BEFD90CDA41C6C42BEF1B25389 /* Pods-BikeFinderTests.release.xcconfig */,
-			);
-			name = "Pods-BikeFinderTests";
-			path = "Target Support Files/Pods-BikeFinderTests";
-			sourceTree = "<group>";
-		};
 		A5FE3CDC9A46E3D0B8766377031A4D81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -837,6 +837,20 @@
 				3C029B51E30E796988A9F3FF8C9C3FF4 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C8211B2CF64D0E6B1F24BB01DBFEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344EF727F41AFED59245ACF8682D39CD /* Mockingjay.framework */,
+				B30A0582AFF297B6608CCAC364DEB0C2 /* Pods_BikeFinder.framework */,
+				1D433BAAD71A8B833419FB99025FFD9C /* Pods_BikeFinder_BikeFinderUITests.framework */,
+				B6DEB1932C4BB2D0C650732DBC0F2980 /* Pods_BikeFinderTests.framework */,
+				F35A0361C16C9B259D8515511BFDAE2E /* Realm.framework */,
+				7054038AA8A286FEA8E19CC82E4E71AA /* RealmSwift.framework */,
+				7DA523A86FFA5D9BEB046F71E55D5D97 /* URITemplate.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C521DD4A7996D90968A7EB4C88E534BE /* Support Files */ = {
@@ -859,16 +873,6 @@
 				43010A9CFDCBA3ACDC385B0B467804A8 /* Mapbox.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6A58D56E071E87FA1389721F56F963E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B95B93681AD39D7F53259664382F318 /* Pods-BikeFinder */,
-				9717FDC0B4006BF87AFCE8A264CCEDF8 /* Pods-BikeFinderTests */,
-				45F56F75E7E1F9754BFC451950CB87ED /* Pods-BikeFinderUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		DB2D67156DF62C305723A1B553B5E095 /* RealmSwift */ = {
@@ -909,6 +913,16 @@
 			);
 			name = Mockingjay;
 			path = Mockingjay;
+			sourceTree = "<group>";
+		};
+		E0BF99C2EC294D574EC65FD03E54E58B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0816EAF4349D258949A0FE6D42767A3E /* Pods-BikeFinder */,
+				217A49885A20E93BAD2C823CC922AFF9 /* Pods-BikeFinder-BikeFinderUITests */,
+				749E61D50527C00A77697DDD0F733D3C /* Pods-BikeFinderTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E3F6A651DE04B8734D056F64722A2EB2 /* Headers */ = {
@@ -1169,19 +1183,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703876259A4BB96920B1C9E82A5DCAFF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFE343CB3BE390FC25A882B574F24D39 /* Pods-BikeFinderUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79EEEAC562F4508EFD70C2A5A27F5845 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				69627B1284EB3494300C000F0C03823E /* URITemplate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18A1BDA36BC2DC3CF967AA2F9C4A385 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EAB54E788D61D6D5C3D30362C71FA4 /* Pods-BikeFinder-BikeFinderUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1212,7 +1226,7 @@
 			);
 			name = "Pods-BikeFinder";
 			productName = "Pods-BikeFinder";
-			productReference = A8C762D5A09FA948605F7898555DB2D8 /* Pods_BikeFinder.framework */;
+			productReference = B30A0582AFF297B6608CCAC364DEB0C2 /* Pods_BikeFinder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5BAACC736A5215103E10E2DC0A74FDCD /* Mockingjay */ = {
@@ -1230,7 +1244,7 @@
 			);
 			name = Mockingjay;
 			productName = Mockingjay;
-			productReference = FE9549968320E1506217FDBB918FE07D /* Mockingjay.framework */;
+			productReference = 344EF727F41AFED59245ACF8682D39CD /* Mockingjay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */ = {
@@ -1247,7 +1261,7 @@
 			);
 			name = URITemplate;
 			productName = URITemplate;
-			productReference = 798160503C2731183961044B4E917AEC /* URITemplate.framework */;
+			productReference = 7DA523A86FFA5D9BEB046F71E55D5D97 /* URITemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6BCD5CA039F45A2E1E7ADDA1D94EBAE4 /* RealmSwift */ = {
@@ -1265,7 +1279,26 @@
 			);
 			name = RealmSwift;
 			productName = RealmSwift;
-			productReference = 35FCD22103E987E3957575E08DB979FC /* RealmSwift.framework */;
+			productReference = 7054038AA8A286FEA8E19CC82E4E71AA /* RealmSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73ED17523446862F21860E9473EE2669 /* Pods-BikeFinder-BikeFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4260D22FC7477715FC190422D8D483C1 /* Build configuration list for PBXNativeTarget "Pods-BikeFinder-BikeFinderUITests" */;
+			buildPhases = (
+				4CAD41D8545124569AB0EFC67B0C7541 /* Sources */,
+				CA8F5BA4B84DB3FD45E6495005951A2F /* Frameworks */,
+				E18A1BDA36BC2DC3CF967AA2F9C4A385 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E4BD5E413EAA75F1EB4731B60D7FFE /* PBXTargetDependency */,
+				0F46AA7E23997120F0FB49CA61FA3B0D /* PBXTargetDependency */,
+			);
+			name = "Pods-BikeFinder-BikeFinderUITests";
+			productName = "Pods-BikeFinder-BikeFinderUITests";
+			productReference = 1D433BAAD71A8B833419FB99025FFD9C /* Pods_BikeFinder_BikeFinderUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D8CB6A6A076288D3DECD17A0C9B4B22F /* Realm */ = {
@@ -1284,7 +1317,7 @@
 			);
 			name = Realm;
 			productName = Realm;
-			productReference = D0C325F57E06A74E3E8BF1E9A13F1536 /* Realm.framework */;
+			productReference = F35A0361C16C9B259D8515511BFDAE2E /* Realm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DEB438675C3F794B2D72697A642EB026 /* Pods-BikeFinderTests */ = {
@@ -1303,24 +1336,7 @@
 			);
 			name = "Pods-BikeFinderTests";
 			productName = "Pods-BikeFinderTests";
-			productReference = B662BCA229F9E606E5AB03AF82F3B0EE /* Pods_BikeFinderTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FAE48A1CC61829385CDF9A2380EEE252 /* Pods-BikeFinderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2703A23BFB7C5E4A2BDBD0AC9616CD7A /* Build configuration list for PBXNativeTarget "Pods-BikeFinderUITests" */;
-			buildPhases = (
-				BA4D159F121DEEBDCE3E7796E0ADF9A9 /* Sources */,
-				6B0FB143927B5185B091CD8EC79F6258 /* Frameworks */,
-				703876259A4BB96920B1C9E82A5DCAFF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-BikeFinderUITests";
-			productName = "Pods-BikeFinderUITests";
-			productReference = 731A24B22A6094078B7C5B1C14E6C11E /* Pods_BikeFinderUITests.framework */;
+			productReference = B6DEB1932C4BB2D0C650732DBC0F2980 /* Pods_BikeFinderTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1340,14 +1356,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6EDD6FE3CF5AAF603EE50D94CCD2D6E7 /* Products */;
+			productRefGroup = B6C8211B2CF64D0E6B1F24BB01DBFEA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5BAACC736A5215103E10E2DC0A74FDCD /* Mockingjay */,
 				4C53BAEFAE63394E35029A957F7AED7F /* Pods-BikeFinder */,
+				73ED17523446862F21860E9473EE2669 /* Pods-BikeFinder-BikeFinderUITests */,
 				DEB438675C3F794B2D72697A642EB026 /* Pods-BikeFinderTests */,
-				FAE48A1CC61829385CDF9A2380EEE252 /* Pods-BikeFinderUITests */,
 				D8CB6A6A076288D3DECD17A0C9B4B22F /* Realm */,
 				6BCD5CA039F45A2E1E7ADDA1D94EBAE4 /* RealmSwift */,
 				5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */,
@@ -1399,6 +1415,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CAD41D8545124569AB0EFC67B0C7541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D687D2A5194E19FA61CCEA4BC06531 /* Pods-BikeFinder-BikeFinderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DE90B2517C82524DCC0ABE2CBE7DD94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1413,14 +1437,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0BFBF318415AEDE9D9DEECB3DDF493A /* Pods-BikeFinderTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA4D159F121DEEBDCE3E7796E0ADF9A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B95FDFBCEA9B1F85FE20F1033227716 /* Pods-BikeFinderUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1520,6 +1536,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0F46AA7E23997120F0FB49CA61FA3B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = 6BCD5CA039F45A2E1E7ADDA1D94EBAE4 /* RealmSwift */;
+			targetProxy = 7B477EAB5CB4950C56E29121ABB7BF46 /* PBXContainerItemProxy */;
+		};
 		121B0058C64F8F8020111525D8F9C391 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mockingjay;
@@ -1537,6 +1559,12 @@
 			name = Realm;
 			target = D8CB6A6A076288D3DECD17A0C9B4B22F /* Realm */;
 			targetProxy = E6E0BB486D6D5E7EA0271E7EF458FA8C /* PBXContainerItemProxy */;
+		};
+		59E4BD5E413EAA75F1EB4731B60D7FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = D8CB6A6A076288D3DECD17A0C9B4B22F /* Realm */;
+			targetProxy = 9DA057ABC77ED32BA8B354FDADFDBD49 /* PBXContainerItemProxy */;
 		};
 		6810DF998E8DE9C151A1A88575C7CA25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1559,41 +1587,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2135E55A123EB05713B933EE5D25C4A7 /* Release */ = {
+		137E938B120C48CB1B31261618E8CCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CB591C904632D26602B971FDE6F8BF6 /* Pods-BikeFinderUITests.release.xcconfig */;
+			baseConfigurationReference = BF0DA19A16E06EF3B8B4FFD9475D295E /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BikeFinderUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BikeFinder-BikeFinderUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BikeFinderUITests;
+				PRODUCT_NAME = Pods_BikeFinder_BikeFinderUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		36BC69C70113AA8E349BB70782D01F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1700,7 +1731,7 @@
 		};
 		4B645BD7F9245693F69CD9B58F4879FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0267D80A537F7B9803E98019B2CC15 /* Pods-BikeFinder.release.xcconfig */;
+			baseConfigurationReference = D0BF639D071BE39CC06B6D4448A3B5C5 /* Pods-BikeFinder.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1738,7 +1769,7 @@
 		};
 		567D310D17614EF682183AD5F1B06BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7515AD16D34B4EA2CD81EFE7C40FAB55 /* Pods-BikeFinder.debug.xcconfig */;
+			baseConfigurationReference = 06019A9343772594DB50F233C367404E /* Pods-BikeFinder.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1915,6 +1946,44 @@
 			};
 			name = Debug;
 		};
+		89B284CF6B789D3653D536DF3B19BC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958789263A4466718C5ABF5C610DA1A5 /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BikeFinder-BikeFinderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BikeFinder_BikeFinderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1966,7 +2035,7 @@
 		};
 		9AEF4BDE7391713FFB8A0810275BD932 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DCB97BEFD90CDA41C6C42BEF1B25389 /* Pods-BikeFinderTests.release.xcconfig */;
+			baseConfigurationReference = 1333C894B7E177F842DF208EF0DD2B1D /* Pods-BikeFinderTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2004,7 +2073,7 @@
 		};
 		A81BC4A9248BAF2269FF6FA971ADEFDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D66C85C2342E0856BAEF0C048227CF54 /* Pods-BikeFinderTests.debug.xcconfig */;
+			baseConfigurationReference = 6DD6288BA6FBAD56DA5C2F280C849CD1 /* Pods-BikeFinderTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2120,42 +2189,6 @@
 			};
 			name = Release;
 		};
-		E5C81B5547FD8B09663DD1824CD7077A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A014A521929AD849151F9BF495C5CA47 /* Pods-BikeFinderUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BikeFinderUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BikeFinderUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2168,20 +2201,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2703A23BFB7C5E4A2BDBD0AC9616CD7A /* Build configuration list for PBXNativeTarget "Pods-BikeFinderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5C81B5547FD8B09663DD1824CD7077A /* Debug */,
-				2135E55A123EB05713B933EE5D25C4A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
 				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4260D22FC7477715FC190422D8D483C1 /* Build configuration list for PBXNativeTarget "Pods-BikeFinder-BikeFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137E938B120C48CB1B31261618E8CCBB /* Debug */,
+				89B284CF6B789D3653D536DF3B19BC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module Pods_BikeFinder_BikeFinderUITests {
+  umbrella header "Pods-BikeFinder-BikeFinderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

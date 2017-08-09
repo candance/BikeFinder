@@ -20,6 +20,7 @@
 		2BCC907F2DD69E3AC99C1C68 /* Pods_BikeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CCA1A914C9F9D76A7F30F4 /* Pods_BikeFinderUITests.framework */; };
 		33EB6BE69E187620F68409BB /* Pods_BikeFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7595660966729A8EFDC9B /* Pods_BikeFinderTests.framework */; };
 		340D86A53E9BD5D65184B4FA /* Pods_BikeFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F053AE804FCB8DC8E893C86 /* Pods_BikeFinder.framework */; };
+		FD78B22EEC240A6F560747D2 /* Pods_BikeFinder_BikeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA34C16A33B3193EF89DB6F4 /* Pods_BikeFinder_BikeFinderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +58,13 @@
 		0DE058881F363D7200390D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DFA23551F3961E800DC0D36 /* MockJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MockJSON; path = BikeFinderTests/MockJSON; sourceTree = SOURCE_ROOT; };
 		23A7595660966729A8EFDC9B /* Pods_BikeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4359E4578DB23D388CC5C639 /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder-BikeFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7513F61D5C69EB57F105127C /* Pods-BikeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F053AE804FCB8DC8E893C86 /* Pods_BikeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAB7D839C4669299BDF71BF /* Pods-BikeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinderTests/Pods-BikeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D246AAC8549752B1327B290F /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder-BikeFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D7B4EF42F8BBFFE5FDA38EAB /* Pods-BikeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA34C16A33B3193EF89DB6F4 /* Pods_BikeFinder_BikeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeFinder_BikeFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6CEAC0940455278D588053 /* Pods-BikeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinder/Pods-BikeFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		F149825624FC01A71D81A12F /* Pods-BikeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinderTests/Pods-BikeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		F27BD58A8FAB0CADE2F854E6 /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinder/Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BCC907F2DD69E3AC99C1C68 /* Pods_BikeFinderUITests.framework in Frameworks */,
+				FD78B22EEC240A6F560747D2 /* Pods_BikeFinder_BikeFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +162,7 @@
 				9F053AE804FCB8DC8E893C86 /* Pods_BikeFinder.framework */,
 				23A7595660966729A8EFDC9B /* Pods_BikeFinderTests.framework */,
 				F7CCA1A914C9F9D76A7F30F4 /* Pods_BikeFinderUITests.framework */,
+				DA34C16A33B3193EF89DB6F4 /* Pods_BikeFinder_BikeFinderUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				F149825624FC01A71D81A12F /* Pods-BikeFinderTests.release.xcconfig */,
 				D7B4EF42F8BBFFE5FDA38EAB /* Pods-BikeFinderUITests.debug.xcconfig */,
 				7513F61D5C69EB57F105127C /* Pods-BikeFinderUITests.release.xcconfig */,
+				4359E4578DB23D388CC5C639 /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */,
+				D246AAC8549752B1327B290F /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -329,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3C76E4D217493C1759FA74D7 /* [CP] Copy Pods Resources */ = {
@@ -430,18 +438,22 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
-				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinderUITests/Pods-BikeFinderUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeFinder-BikeFinderUITests/Pods-BikeFinder-BikeFinderUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C87BE2B29F25EE4492AA17AD /* [CP] Check Pods Manifest.lock */ = {
@@ -455,7 +467,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BikeFinderUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BikeFinder-BikeFinderUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -702,7 +714,7 @@
 		};
 		0DE058921F363D7200390D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7B4EF42F8BBFFE5FDA38EAB /* Pods-BikeFinderUITests.debug.xcconfig */;
+			baseConfigurationReference = 4359E4578DB23D388CC5C639 /* Pods-BikeFinder-BikeFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = E887LJZPP9;
@@ -717,7 +729,7 @@
 		};
 		0DE058931F363D7200390D10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7513F61D5C69EB57F105127C /* Pods-BikeFinderUITests.release.xcconfig */;
+			baseConfigurationReference = D246AAC8549752B1327B290F /* Pods-BikeFinder-BikeFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = E887LJZPP9;

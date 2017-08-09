@@ -28,9 +28,17 @@ class BikeFinderUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testOpenAppAndTapStation() {
+        // Unsure of how to mock location, this test is flaky.
+        let app = XCUIApplication()
+        app.otherElements["mainMap"].tap()
+        app.buttons["W 37 St & 10 Ave"].tap()
+        
+        let mapButton = app.buttons["Map"]
+        mapButton.tap()
+        app.staticTexts["W 38 St & 8 Ave"].tap()
+        mapButton.tap()
+        app.staticTexts["Broadway & W 37 St"].tap()
     }
     
 }

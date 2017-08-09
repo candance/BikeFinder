@@ -3,55 +3,11 @@
 	"ttl": 10,
 	"data": {
 		"stations": [{
-			"station_id": "flower",
-			"num_bikes_available": 4,
-			"num_bikes_disabled": 1,
-			"num_docks_available": 34,
-			"num_docks_disabled": 0,
-			"is_installed": 1,
-			"is_renting": 1,
-			"is_returning": 1,
-			"last_reported": 1501976815,
-			"eightd_has_available_keys": false
-		}, {
-			"station_id": "hello",
-			"num_bikes_available": 9,
-			"num_bikes_disabled": 2,
-			"num_docks_available": 22,
-			"num_docks_disabled": 0,
-			"is_installed": 1,
-			"is_renting": 1,
-			"is_returning": 1,
-			"last_reported": 1501977277,
-			"eightd_has_available_keys": false
-		}, {
-			"station_id": "monkey",
-			"num_bikes_available": 3,
-			"num_bikes_disabled": 1,
-			"num_docks_available": 23,
-			"num_docks_disabled": 0,
-			"is_installed": 1,
-			"is_renting": 1,
-			"is_returning": 1,
-			"last_reported": 1501977274,
-			"eightd_has_available_keys": false
-		}, {
-			"station_id": "bunny",
-			"num_bikes_available": 32,
-			"num_bikes_disabled": 2,
-			"num_docks_available": 28,
-			"num_docks_disabled": 0,
-			"is_installed": 1,
-			"is_renting": 1,
-			"is_returning": 1,
-			"last_reported": 1501977360,
-			"eightd_has_available_keys": false
-		}, {
 			"station_id": "duck",
 			"num_bikes_available": 3,
-			"num_bikes_disabled": 0,
+			"num_bikes_disabled": 5,
 			"num_docks_available": 36,
-			"num_docks_disabled": 0,
+			"num_docks_disabled": 2,
 			"is_installed": 1,
 			"is_renting": 1,
 			"is_returning": 1,

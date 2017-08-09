@@ -12,6 +12,5 @@ target 'BikeFinder' do
   end
 
   target 'BikeFinderUITests' do
-    inherit! :search_paths
   end
 end
